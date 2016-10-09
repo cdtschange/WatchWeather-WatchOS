@@ -20,7 +20,7 @@ public struct WeatherClient {
     
     public func requestWeathers(handler: ((weathers: [Weather?]?, error: NSError?) -> Void)?) {
         
-        guard let url = NSURL(string: "https://raw.githubusercontent.com/onevcat/WatchWeather/master/Data/data.json") else {
+        guard let url = NSURL(string: "https://raw.githubusercontent.com/cdtschange/WatchWeather-WatchOS/master/WatchWeather/Data/data.json") else {
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
                 handler?(weathers: nil, error: NSError(domain: NSURLErrorDomain, code: NSURLErrorBadURL, userInfo: nil))
             })
