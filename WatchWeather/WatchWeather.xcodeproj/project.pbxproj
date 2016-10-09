@@ -150,6 +150,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27A09FA11DA9D19600FCD613 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		27F2193D1DA8E7FA0052AB29 /* WatchWeatherWatchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchWeatherWatchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F2193F1DA8E7FA0052AB29 /* WatchWeatherWatchKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchWeatherWatchKit.h; sourceTree = "<group>"; };
 		27F219411DA8E7FA0052AB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -248,6 +249,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27A09FA01DA9D19600FCD613 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				27A09FA11DA9D19600FCD613 /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		27F2193E1DA8E7FA0052AB29 /* WatchWeatherWatchKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +269,7 @@
 		27F3C11B1DA8D35000FCCB17 = {
 			isa = PBXGroup;
 			children = (
+				27A09FA01DA9D19600FCD613 /* Data */,
 				27F3C1261DA8D35000FCCB17 /* WatchWeather */,
 				27F3C13B1DA8D35000FCCB17 /* WatchWeatherTests */,
 				27F3C1461DA8D35000FCCB17 /* WatchWeatherUITests */,
